@@ -1,10 +1,8 @@
+<?php include("config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>FixMeADrink!</title>
-  <link rel="stylesheet" type="text/css" href="./css/cover.css">
-  <link rel="stylesheet" type="text/css" href="./css/random.css">
+  <?php include("head.php");?>
 </head>
 <body>
   <?php
@@ -19,11 +17,10 @@
   ?>
   <div id="cover">
     <div id="header">
-      <h1>Staying in tonight?</h1>
-      <h1>Can't decide what to drink?</h1>
-      <h1>We've got you covered.</h1>
+      <?php include("random-header.php");?>  
     </div>
   </div>
+  <?php include("nav.php");?>
   <div id="container">
     <h1><?php echo $drinks[0]->strDrink;?></h1>
     <img id="thumbnail" src=<?php echo $drinks[0]->strDrinkThumb;?>></img>
