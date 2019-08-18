@@ -1,17 +1,17 @@
-<?php include("config.php");?>
+<?php include("./resources/templates/config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-  <?php include("head.php");?>
+  <?php include("./resources/templates/head.php");?>
   <link rel="stylesheet" type="text/css" href="./css/search.css">
 </head>
 <body>
   <div id="cover">
     <div id="header">
-      <?php include("search-header.php");?>  
+      <?php include("./resources/templates/search-header.php");?>  
     </div>
   </div>
-  <?php include("nav.php");?>
+  <?php include("./resources/templates/nav.php");?>
   </div>
   <div id="container">
     <p>

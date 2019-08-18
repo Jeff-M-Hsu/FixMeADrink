@@ -1,27 +1,18 @@
-<?php include("config.php");?>
+<?php include("./resources/templates/config.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-  <?php include("head.php");?>
+  <?php include("./resources/templates/head.php");?>
   <link rel="stylesheet" type="text/css" href="./css/random.css">
 </head>
 <body>
-  <?php
-    $ch = curl_init('https://www.thecocktaildb.com/api/json/v1/1/random.php');                                                                      
-    curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
-    curl_setopt($ch, CURLOPT_POSTREDIR, 3);                                                                  
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);                                 
-    curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // follow http 3xx redirects
-    $resp_orders = curl_exec($ch); // execute
-    $jd_orders = json_decode($resp_orders);
-    $drinks = $jd_orders->drinks;
-  ?>
+  <?php include("./resources/templates/getDrink.php");?>
   <div id="cover">
     <div id="header">
-      <?php include("random-header.php");?>  
+      <?php include("./resources/templates/random-header.php");?>  
     </div>
   </div>
-  <?php include("nav.php");?>
+  <?php include("./resources/templates/nav.php");?>
   <div id="container">
     <h1><?php echo $drinks[0]->strDrink;?></h1>
     <img id="thumbnail" src=<?php echo $drinks[0]->strDrinkThumb;?>></img>
