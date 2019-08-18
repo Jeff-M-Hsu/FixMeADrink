@@ -3,6 +3,7 @@
 <html>
 <head>
   <?php include("head.php");?>
+  <link rel="stylesheet" type="text/css" href="./css/random.css">
 </head>
 <body>
   <?php

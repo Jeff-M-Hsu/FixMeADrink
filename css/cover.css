@@ -14,3 +14,44 @@ body,html{
   position: relative;
   top: -22px;
 }
+#header{
+  font-family: 'Quicksand', sans-serif;
+  color: #FFFFFF;
+  font-size: 1.4em;
+  margin-left: 10%;
+  margin-top: 16%;
+  position: absolute;
+}
+@media (width: 3840px){
+  #header{
+    font-size: 3.9em;
+    margin-top: 20%;
+  }
+}
+@media (width: 2560px){
+  #header{
+    font-size: 2.6em;
+  }
+}
+@media (min-width: 1800px) and (max-width: 2559px){
+  #header{
+    font-size: 2.2em;
+  }
+}
+@media (max-width: 1000px){
+  #header{
+    font-size: 1.1em;
+    margin-left: 7vw;
+    margin-right: 4vw;
+    margin-top: 33%;
+  }
+}
+@media (max-width: 550px){
+  #header{
+    font-size: .9em;
+    margin-left: 6vw;
+    margin-right: 5vw;
+    margin-top: 55%;
+  }
+}
+
