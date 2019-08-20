@@ -20,3 +20,19 @@
 #page:hover{
   color: #CDCDCD;
 }
+@media (max-width: 352px){
+  #nav{
+    display: flex;
+    align-items: space-evenly;
+  }
+}
+@media (min-width: 2100px){
+  #page{
+    font-size: 2em;
+  }
+}
+@media (min-width: 3800px){
+  #page{
+    font-size: 2.8em;
+  }
+}

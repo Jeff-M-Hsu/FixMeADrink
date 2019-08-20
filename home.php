@@ -15,8 +15,9 @@
   </div>
   <div id="container">
     <div id="row">
-      <h3><br>Discover a cocktail for you</h3>
-      <img id="dubonnet" alt="Dubonnet Cocktail" src="./resources/img/dubonnet-cocktail.jpg"></img>
+    <div id="card">
+    <div id="card-left">
+      <h3>Discover a cocktail for you</h3>
       <p>
       Discover your next go-to cocktail 
       and find new ways to finish up those open bottles gathering dust 
@@ -24,6 +25,9 @@
       surprise your friends this evening with cocktails they 
       may have never even heard of!
       </p>
+    </div>
+    <img id="dubonnet" alt="Dubonnet Cocktail" src="./resources/img/dubonnet-cocktail.jpg"></img>
+    </div>
     </div>
     <div id="row" class="row-border">
       <div id="col">
