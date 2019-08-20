@@ -1,7 +1,7 @@
 
 Practicing with PHP by making a site about cocktails
 
-Uses TheCocktailDB API to generate random cocktail recipes.
+Uses TheCocktailDB API to display cocktail recipes.
 
 To-do: 
 
