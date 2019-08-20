@@ -1,0 +1,15 @@
+.search-form{
+  display: inline-block;
+  margin-right: 20px;
+  top: -50px;
+  position: relative;
+}
+.text{
+  font-size: 1.2em;
+  height: 1.3em;
+  border-width: 1px;
+  border-radius: 6px;
+}
+.drink{
+  color: black;
+}

@@ -27,8 +27,8 @@
     </div>
     <div id="row" class="row-border">
       <div id="col">
-        <h4>500+ cocktail recipes</h4>
-        <h4>450+ searchable ingredients</h4>
+        <h4>500+ recipes</h4>
+        <h4>450+ ingredients</h4>
       </div>
     </div>
     <div id="row" class="row-full">
