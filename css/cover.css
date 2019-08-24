@@ -13,6 +13,7 @@ body,html{
   display: block;
   position: relative;
   top: -22px;
+  background-attachment: fixed;
 }
 #header{
   font-family: 'Quicksand', sans-serif;
